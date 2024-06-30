@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CheckAll" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Configuración tema claro -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorSecondary">@color/purple_500</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="colorOnPrimary">@color/purple_50</item>
+        <item name="colorOnSecondary">@color/purple_50</item>
+        <item name="colorError">@color/red_300</item>
+
+        <!-- Configuración de etiquetas -->
+        <item name="shapeBackgroundBlueColor">@color/blue_light</item>
+        <item name="shapeBackgroundGreenColor">@color/lightGreen_light</item>
+        <item name="shapeBackgroundOrangeColor">@color/orange_light</item>
+        <item name="shapeBackgroundPinkColor">@color/pink_light</item>
+        <item name="shapeBackgroundBrownColor">@color/brown_light</item>
+        <item name="shapeBackgroundPurpleColor">@color/deepPurple_light</item>
+
+        <!-- Configuración de iconos -->
+        <item name="reminderIconColor">@color/black</item>
+        <item name="arrowIconColor">@color/black</item>
+        <item name="userIconColor">@color/black</item>
+        <item name="userSelectedIconColor">@color/purple_500</item>
+
+        <!-- Configuración de switch -->
+        <item name="textSwitchColor">@color/black_400</item>
+    </style>
+
+    <style name="CardViewStyle" parent="CardView">
+        <item name="cardBackgroundColor">@color/gray_50</item>
+    </style>
+    <style name="BtnDeleteCardStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:backgroundTint">@color/gray_50</item>
+    </style>
+    <style name="BtnIconStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:tint">@color/purple_500</item>
+    </style>
+    <style name="BtnDeleteFragmentStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+    <style name="BtnStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:backgroundTint">@color/purple_500</item>
+        <item name="android:textColor">@color/purple_50</item>
+        <item name="android:fontFamily">@font/amaranth</item>
+    </style>
+    <style name="BtnCerrarSesionStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:backgroundTint">@color/red_300</item>
+        <item name="android:textColor">@color/purple_50</item>
+        <item name="android:fontFamily">@font/amaranth</item>
+    </style>
+
+    <style name="SuperponerFragmentStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:background">#E8FFFFFF</item>
+    </style>
+
+    <style name="CalendarViewStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Theme.CheckAll" parent="Base.Theme.CheckAll" />
+</resources>

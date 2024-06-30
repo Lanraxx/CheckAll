@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="shapeBackgroundPinkColor" format="color"/>
+    <attr name="shapeBackgroundBlueColor" format="color"/>
+    <attr name="shapeBackgroundGreenColor" format="color"/>
+    <attr name="shapeBackgroundBrownColor" format="color"/>
+    <attr name="shapeBackgroundOrangeColor" format="color"/>
+    <attr name="shapeBackgroundPurpleColor" format="color"/>
+
+    <attr name="reminderIconColor" format="color"/>
+    <attr name="arrowIconColor" format="color"/>
+    <attr name="userIconColor" format="color"/>
+    <attr name="userSelectedIconColor" format="color"/>
+
+    <attr name="textSwitchColor" format="color"/>
+</resources>
